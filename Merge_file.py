@@ -120,7 +120,9 @@ def mergeFile(file1,file2,file3,file4,blockSize,nRecords):
     f1.seek(size*(lower))
     for i in range(lower,upper):
         print(pickle.load(f1))
-
+'''
+main funtion begins
+'''
 if __name__=="__main__":
     blocksize=4
     file1="File1.txt"
